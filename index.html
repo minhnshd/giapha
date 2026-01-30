@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gia phả dòng họ</title>
+  <style>
+    body { margin:0; font-family:system-ui; background:#0b1220; color:#e8eefc; }
+    h1 { margin:0; padding:16px; }
+    .node { border:1px solid #2a3a66; border-radius:12px; padding:8px 12px; background:#121b2e; }
+    ul { list-style:none; padding-left:20px; }
+  </style>
+</head>
+<body>
+<h1>Gia phả dòng họ</h1>
+<div id="app"></div>
+
+<script>
+async function load() {
+  const res = await fetch('./family.json');
+  const data = await res.json();
+
+  function render(p) {
+    let html = `<li><div class="node"><b>${p.name}</b> (${p.born || ''})</div>`;
+    if (p.children && p.children.length) {
+      html += '<ul>' + p.children.map(render).join('') + '</ul>';
+    }
+    html += '</li>';
+    return html;
+  }
+
+  document.getElementById('app').innerHTML =
+    '<ul>' + render(data) + '</ul>';
+}
+load();
+</script>
+</body>
+</html>

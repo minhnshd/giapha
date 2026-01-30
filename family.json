@@ -1,0 +1,17 @@
+{
+  "name": "Nguyễn Văn A",
+  "born": "1940",
+  "children": [
+    {
+      "name": "Nguyễn Văn B",
+      "born": "1965",
+      "children": [
+        {
+          "name": "Nguyễn Văn C",
+          "born": "1990",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
