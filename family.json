@@ -1,23 +1,70 @@
 {
   "couple": {
-    "husband": { "name": "Nguyễn Văn A", "born": "1940", "died": "2010", "note": "Tộc trưởng đời 3" },
-    "wife": { "name": "Trần Thị B", "born": "1945", "died": "", "note": "" }
+    "husband": {
+      "name": "Nguyễn Văn A",
+      "born": "1940",
+      "died": "2010",
+      "note": "Tộc trưởng đời 3"
+    },
+    "wife": {
+      "name": "Trần Thị B",
+      "born": "1945",
+      "died": "",
+      "note": ""
+    }
   },
   "children": [
     {
       "couple": {
-        "husband": { "name": "Nguyễn Văn C", "born": "1965" },
-        "wife": { "name": "Lê Thị D", "born": "1968" }
+        "husband": {
+          "name": "Nguyễn Văn C",
+          "born": "1965"
+        },
+        "wife": {
+          "name": "Lê Thị D",
+          "born": "1968"
+        }
       },
       "children": [
-        { "person": { "name": "Nguyễn Văn E", "born": "1990" }, "children": [] },
-        { "person": { "name": "Nguyễn Thị F", "born": "1993" }, "children": [] }
+        {
+          "person": {
+            "name": "Nguyễn Văn E",
+            "born": "1990"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Nguyễn Thị F",
+            "born": "1993"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Con Nuôi",
+            "born": "1999",
+            "died": "",
+            "note": "Con nuôi mới"
+          },
+          "children": []
+        }
       ]
     },
     {
-      "person": { "name": "Nguyễn Văn G", "born": "1970", "note": "Con thứ" },
+      "person": {
+        "name": "Nguyễn Văn G",
+        "born": "1970",
+        "note": "Con thứ"
+      },
       "children": [
-        { "person": { "name": "Nguyễn Văn H", "born": "1998" }, "children": [] }
+        {
+          "person": {
+            "name": "Nguyễn Văn H",
+            "born": "1998"
+          },
+          "children": []
+        }
       ]
     }
   ]
