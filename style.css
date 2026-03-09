@@ -1,0 +1,10 @@
+
+body{font-family:Arial;background:#0f172a;color:white;margin:0;overflow:hidden}
+#viewport{width:100vw;height:100vh;overflow:hidden;cursor:grab}
+#tree{transform-origin:0 0;position:absolute;padding:80px}
+.person{background:#1e293b;border:1px solid #334155;border-radius:10px;padding:10px 14px;text-align:center;min-width:140px}
+.branch{font-size:12px;color:#94a3b8}
+.children{display:flex;justify-content:center;gap:40px;margin-top:60px}
+.node{display:flex;flex-direction:column;align-items:center}
+.line{width:2px;height:40px;background:#475569}
+.couple{display:flex;gap:10px}
