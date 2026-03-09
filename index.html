@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Gia Phả PRO v5 Ultimate</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌳 Gia Phả Dòng Họ</h1>
+
+<div class="toolbar">
+
+<input id="search" placeholder="Tìm người...">
+
+<button onclick="zoomIn()">+</button> <button onclick="zoomOut()">-</button>
+
+<button onclick="addPerson()">Thêm người</button>
+
+<button onclick="exportJSON()">Export JSON</button>
+
+</div>
+
+</header>
+
+<div id="tree"></div>
+
+<div id="panel">
+
+<h3>Thông tin</h3>
+
+<div id="detail">Chọn người trong cây</div>
+
+</div>
+
+<script src="utils.js"></script>
+
+<script src="editor.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>

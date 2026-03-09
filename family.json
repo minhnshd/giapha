@@ -1,0 +1,98 @@
+{
+  "couple": {
+    "husband": {
+      "name": "Nguyễn Đình Kim"
+    },
+    "wife": {
+      "name": "Nguyễn Thị Diệu"
+    }
+  },
+  "children": [
+    {
+      "person": {
+        "name": "Nguyễn Đình Chinh",
+        "branch": "Ngành I"
+      },
+      "children": [
+        {
+          "person": {
+            "name": "Nguyễn Đình Hiệp",
+            "branch": "Chi I"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Nguyễn Đình Đẳng",
+            "branch": "Chi II"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "person": {
+        "name": "Nguyễn Đình Đồng",
+        "branch": "Ngành II"
+      },
+      "children": [
+        {
+          "person": {
+            "name": "Nguyễn Thị Vắt",
+            "branch": "Chi I"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Nguyễn Thị Đưa",
+            "branch": "Chi II"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Nguyễn Đình Phong",
+            "branch": "Chi III"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "person": {
+        "name": "Nguyễn Đình Công",
+        "branch": "Ngành III"
+      },
+      "children": [
+        {
+          "person": {
+            "name": "Nguyễn Đình Cập",
+            "branch": "Chi I"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Nguyễn Đình Nước",
+            "branch": "Chi II"
+          },
+          "children": []
+        },
+        {
+          "person": {
+            "name": "Nguyễn Đình Phần",
+            "branch": "Chi III"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "person": {
+        "name": "Nguyễn Thị Liêm"
+      },
+      "children": []
+    }
+  ]
+}
